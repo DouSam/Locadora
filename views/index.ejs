@@ -1,0 +1,15 @@
+<%- include("./partials/header") -%> 
+
+    </head>
+    <body>
+        <% if (msg) { %>
+            <div class="row fixed-top mt-3 mx-3">
+                <div class="col">
+                    <div class="alert <%- msgInd == 0 ? 'alert-success':'alert-danger' %>" role="alert">
+                        <%= msg %> 
+                    </div>
+                </div>
+            </div>
+        <% } %>
+
+<%- include("./partials/footer") -%> 

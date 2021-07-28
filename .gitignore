@@ -1,0 +1,17 @@
+*.pdf
+*.bmp
+*.pem
+*.key
+*.docx
+*.doc
+*.zip
+*.rar
+*.exe
+*.png
+*.jpg
+*.xml
+node_modules/
+*.txt
+.vscode
+dump/
+*.download
